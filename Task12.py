@@ -14,3 +14,10 @@ for x in range(0, 1001):
     y = s -x
     if x <= y and x * y == p:
         print(x, y)
+
+# x = int(input())
+# y = int(input())
+# for i in range(x):
+#     for j in range(y):
+#         if x == i + j and y == i * j:
+#             print(i, j)
