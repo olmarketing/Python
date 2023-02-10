@@ -15,20 +15,6 @@
 # 4 -> 1 2 3 4
 # 9
 
-# from random import randint
-# n = int(input('Количество кустов:'))
-# from random import randint
-# a=[randint(1,100) for i in range(n)]
-# print(a)
-
-# a = int(input('Введите номер куста:'))
-# max_sum=0
-
-# for i in range (1,n-1):
-#     if (a[i]+a[i+1]+a[i-1] > max_sum):
-#         max_sum = a[i]+a[i+1]+a[i-1]
-# print(max_sum)
-
 
 from random import randint
 n = int(input('Введите количество кустов:'))
