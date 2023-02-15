@@ -8,10 +8,11 @@
 
 def recursive(x,y):
     if y==1:
-        return print('Результат возведения в степень равен: ',x)
+        return x
     else:
-        print('Результат возведения в степень равен: ',x**y)
+       return x * recursive(x,y-1)
     
 
 a, b = int(input("Введите число a: ")), int(input("Введите число b: "))
-recursive(a,b)
+print(recursive(a,b))
+
