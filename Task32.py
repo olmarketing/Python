@@ -14,5 +14,5 @@ max_el=int(input("Введите максимальное значение:"))
 index_list=[]
 for i in range(len(a)):
     if min_el <= a[i] <= max_el:
-        index_list.append(a[i])
+        index_list.append(i)
 print(index_list)
